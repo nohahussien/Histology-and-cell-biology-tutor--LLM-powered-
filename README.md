@@ -1,4 +1,4 @@
-# 🧫 Histology and Cell Biology Tutor — LLM Powered
+# 🔬 Histology and Cell Biology Tutor — LLM Powered
 
 An interactive web application that allows users to ask questions about **Histology and Cell Biology** using a Large Language Model (LLM).  
 All questions and answers are stored in a PostgreSQL database and can be viewed through a history interface.
@@ -157,6 +157,6 @@ The application can be deployed using:
 
 ---
 
-## 👩‍💻 Please note that...
+## 🎓 Please note that...
 
 this app is only for educational and learning purposes.
