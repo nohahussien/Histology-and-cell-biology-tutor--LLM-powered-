@@ -78,8 +78,6 @@ pip install -r requirements.txt
 
 python app.py
 
-markdown
-Copiar código
 
 5. Open browser:
 
@@ -142,6 +140,8 @@ pytest
 
 The application can be deployed using:
 - Render Web Service using the Docker image : "https://histology-app-latest-1.onrender.com/" (NOTE: this is doable as long as the API-key used is active!!"
+-Docker image in my Docker Hub Repository: nohaattia/histology_app
+    Tags Available: latest
 
 ---
 
