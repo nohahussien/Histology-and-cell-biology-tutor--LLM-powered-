@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>History</title>
+</head>
+<body>
+    <h2>Question & Answer History</h2>
+
+    <a href="/">← Back</a>
+    <br><br>
+
+    {% for qa in qa_list %}
+        <hr>
+        <p><strong>Time:</strong> {{ qa.timestamp }}</p>
+        <p><strong>Question:</strong><br>{{ qa.question }}</p>
+        <p><strong>Answer:</strong><br>{{ qa.answer }}</p>
+    {% else %}
+        <p>No questions yet.</p>
+    {% endfor %}
+</body>
+</html>
